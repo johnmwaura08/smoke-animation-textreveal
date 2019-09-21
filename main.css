@@ -17,5 +17,26 @@ h1{
     text-align: center;
     color: #ddd;
     font-size: 5em;
-    
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 0.1em;
+
+}
+h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+@keyframes animate{
+    0%
+    {
+        opacity:0 ;
+        transform: rotateY(90deg);
+    }
+    100%
+    {
+        opacity:1;
+        transform: rotateY(0deg);
+
+    }
+
 }
